@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	margin: 20px auto;
+	width: 24%;
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 16px;
+	padding-top: 30px;
+}
+
+.container span{
+	background: white;
+	color: black;
+	padding: 3px 10px;
+	border: 2px solid #ccc;
+	font-weight: bold;
+}
+
+.container .cancel{
+	background-position: 0 -50px;
+}
+
+.container input{
+	width: 285px;
+	height: 52px;
+	margin: 20px 0;
+	background: url("../images/btn-1.png") no-repeat;
+	border: none;
+
+}
